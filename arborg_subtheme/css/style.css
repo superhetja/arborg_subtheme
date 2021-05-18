@@ -1,0 +1,120 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+/* CARD STYLE */
+.card{
+  background-color: #FFFFFF;
+
+}
+
+.view-fristundir .col-sm {
+  padding: 15px;
+}
+
+
+#page, #main-wrapper {
+  background-color: #f8f9fb;
+}
+
+.image-style-adjustable {
+  max-width: 100%;
+  height: auto;
+}
+
+.field--type-entity-reference {
+  margin: 0;
+}
+
+.btn-card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* HEADER STYLES */
+/* top */
+
+#block-heilsueflandisamfelag img{
+  max-height: 72px !important;
+  width: auto !important;
+}
+/* bottom */
+#navbar-main {
+  background: -webkit-linear-gradient(rgba(1, 45, 152,0.5), rgba(1, 45, 152,0.5)), url("/drupal/themes/custom/arborg_subtheme/background.jpg");
+  background: linear-gradient(rgba(1, 45, 152,0.5), rgba(1, 45, 152, 0.5)), url("/drupal/themes/custom/arborg_subtheme/background.jpg");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 400px;
+  justify-content: space-around;
+}
+#block-velkomin{
+  color: #FFFFFF;
+  width: 40%;
+}
+
+
+/*modal styles*/
+.ui-dialog {
+  width: 60% !important;
+}
+.ui-dialog-titlebar {
+  background: none;
+  border: none;
+}
+.ui-dialog-title {
+  font-size: 1.75rem;
+}
+
+.ui-dialog .node__meta {
+  display: none;
+}
+
+.ui-dialog .field__label {
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+
+/* filter styles */
+.view-fristundir .form-row legend{
+  display: none;
+}
+
+.custom-checkbox .custom-checkbox-input {
+  position: absolute;
+  clip: rect(0,0,0,0);
+  pointer-events: none;
+}
+
+.custom-checkbox .custom-checkbox-label {
+  border: 1px solid #012d98;
+  color: #012d98;
+  border-radius: 50px;
+  padding: 0.25rem 1rem;
+}
+
+.custom-checkbox-input:checked + .custom-checkbox-label, .custom-checkbox-label:hover {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 0.25rem 1rem;
+  background-color: #012d98;
+  color: #FFFFFF;
+}
+
+.view-fristundir .form-row {
+  justify-content: center;
+}
+
+
+
+
+
+
